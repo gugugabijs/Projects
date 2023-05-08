@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li,ul,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.bg-colour{
+    background-image:  linear-gradient( to right,#00095D,#030A50,#0C0C24) ;
+    
+}
+.container{
+    margin: 0 70px 0 70px;
+   
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+
+    .header-items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+
+
+        .top-rigth{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+    
+    
+            .navbar >nav>ul{
+    
+                display: flex;
+                gap: 40px;
+                color: white;
+                margin-left: 50px;
+
+    
+            }
+        }
+        .top-left{
+    
+            
+           
+        
+            #btn{
+                
+                 background-color: #030A50;
+                 color: white;
+                 border-radius: 25px;
+                 border: 2px solid white;
+                 padding: 15px;
+                 width: 170px;
+                 text-align: center;
+                 font-weight: bold;
+
+           }
+
+       
+        
+          
+        }
+    
+        
+        
+
+
+    }
+
+   
+}
+.main{
+    position: relative;
+    margin-top: 40px;
+    height: 600px;
+    background-image: url(./hero-img.png.webp);
+    background-size: 85%, 85%;
+    background-position:right;
+    background-repeat: no-repeat;
+
+
+
+.main-left{
+    position: absolute;
+    top: 64px;
+    left: 27px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+   
+     
+
+    h1{
+        font-size: 64px;
+    }
+    p{
+        font-size: 18px;
+    }
+
+    .main-btn> button{
+        background-image: radial-gradient(#FF4D8D,#FF6A71);
+        border-radius: 25px;
+        padding: 10px;
+        border: none;
+        color: white;
+        width: 130px;
+        font-weight: bold;
+        
+    }
+   
+}
+
+}
