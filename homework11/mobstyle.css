@@ -1,0 +1,173 @@
+@media screen and (max-width: 768px) {
+  
+  header {
+    height: 100px;
+  }
+  .menu {
+    display: none;
+    
+  }
+  .logo > img {
+    width: 147px;
+    height: 44.9px;
+  }
+  .mob-icon-menu{
+    display: block;
+    font-size: 35px;
+    color: #6168ff;
+    
+  }
+  main {
+    width: auto;
+   height: 30rem; 
+  }
+ .main_text{
+
+    display: none;
+    
+  }
+  .main_text_mob{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+  }
+ 
+  .main_text>h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  article > h2 {
+    font-size: 55px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    text-transform: capitalize;
+  }
+  
+  .btn {
+    padding: 13px 30px;
+    width: 168px;
+    height: 50px;
+    font-size: 13px;
+  }
+  
+  
+  .rotating_circle {
+    
+    display: none;
+  }
+  .colour{
+    font-size: 60px;
+  }
+  .info_text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .photo > img {
+    width: 100%;
+  }
+  
+  .info_text_details {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .photo_icon {
+    font-size: 45px;
+    padding: 10px;
+    top: 42%;
+    left: 45%;
+  }
+  .destination_box_img > img {
+    width: 514px;}
+
+.destination_box_info {
+  width: 514px;
+  
+}
+.destination_boxes {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.services_boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.gallery_boxes {
+  display: grid;
+  grid-template-columns: 486px ;
+ 
+}
+.gallery_box > img {
+  width: 486px;
+  height: 405px;
+}
+
+.package_boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.package_box {
+  box-shadow: 0 0 20px rgb(0 0 0 / 3%);
+  border-radius: 4px;
+  border: 1px solid #ebe6de;
+  width: 89.4%;
+}
+.package_box_photo > img {
+  width: 508px;
+  
+}
+.package_box_description {
+ width: 508px;
+  padding-left: 30px;
+}
+.partner_box:nth-child(4){
+display: none;
+}
+.partner_box:nth-child(5){
+display: none;}
+
+.partner_box:nth-child(6){
+  display: none;}
+
+.testimonial_box:nth-child(2){
+  display: none;
+}
+.testimonial_box:nth-child(3){
+  display: none;
+}
+.testimonial_box {
+  width: 100%;
+  
+}
+::placeholder {
+  font-size: 17px;
+}
+#contact_btn {
+  margin-left: 25%;
+  font-size: 15px;
+}
+
+.footer_top{
+  display: flex;
+ flex-direction: column;
+  
+
+}
+#support{
+  margin-left: 0;
+}
+}
