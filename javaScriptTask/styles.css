@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#btn{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.parentOfBtn{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.btns{
+    height: 70%;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 20px;
+    
+    
+
+}
+#count_lbl{
+    color: white;
+    font-size: 30px;
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    
+}
+.images{
+    margin-left: 25%;
+}
+img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+#imgBtnParent{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#imgBtn{
+    width: 20%;
+   
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+   margin: 5px;
+    font-size: 20px;
+}
