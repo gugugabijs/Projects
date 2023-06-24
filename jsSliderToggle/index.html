@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ImgContainer">
+    <div class="mySlides"><img id="SliderImage" src="https://live.staticflickr.com/8648/15797503940_675ab7cc95.jpg" alt="New Moon"></div>
+        <div class="btn" id="previous">&#10094;</div>
+        <div class="btn" id="next">&#10095;</div>
+    </div>
+
+ <button id="dark">Gotham</button>
+
+ 
+    <script>
+        let images=["https://live.staticflickr.com/8648/15797503940_675ab7cc95.jpg", "https://media.istockphoto.com/photos/moon-waxing-crescent-young-moon-picture-id594034628?k=6&m=594034628&s=170667a&w=0&h=PzdoAaloBuTxuiGEnru24QieCkQjZBb46yFMsdJcTwg=",
+    "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/waxing-crescent-moon-eckhard-slawik.jpg", "http://farm6.staticflickr.com/5262/5612592654_17b69bd3cf_z.jpg","http://www.hrastro.com/wp-content/uploads/WaxingGibbousMoon_1500x1800.jpg","https://preview.redd.it/ds2ypinn5v701.jpg?auto=webp&s=8e12ecc136962c08ddc162b89e89d1ae2eb63ef4"]
+        let SliderImage=document.getElementById("SliderImage");
+        let previous=document.getElementById('previous');
+        let next=document.getElementById('next');
+        let currentSlide=0;
+        previous.addEventListener("click",function(){
+            currentSlide--;
+            if (currentSlide<0){currentSlide=images.length-1;}
+            SliderImage.setAttribute("src", images[currentSlide]);
+        });
+        next.addEventListener("click", function(){
+            currentSlide++;
+            if (currentSlide>images.length-1){ currentSlide=0}
+            SliderImage.setAttribute("src",images[currentSlide]);
+        
+        });
+        
+
+
+        
+
+         let darkModeBtn= document.getElementById("dark");
+
+         darkModeBtn.addEventListener("click", function(){
+            var element = document.body;
+   element.classList.toggle("dark-mode");
+        });
+
+    
+
+        
+    </script>
+</body>
+</html>
