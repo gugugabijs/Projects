@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form  id="box" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username"   class="space"  name="username" placeholder="Enter Username" required>
+      
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <span id="passwordText" class="minorText   space">Your password is between 4 and 12 characters</span>
+        <span id="passwordError" class="minorText    space">Your password is less than 8 characters</span>
+      
+        <label for="labelText">Input Text Label</label>
+        <input type="text" id="labelText" name="labelText" placeholder="Type here" required>
+        <span id="labelSuccess" class="minorText  space"   >Assistive Text</span>
+        <span id="labelError" class="minorText  space">Error.. Write proper name!</span>
+
+
+        <p id="rememberme" class="space" > <input type="checkbox" name="rememberme">   Remember me </p>
+        
+      
+        <label for="dropdown">Dropdown Title</label>
+        <select id="dropdown" class="space" name="dropdown">
+          <option value="default" >Dropdown option</option>
+          <option value="opt1"  >Dropdown option 1</option>
+          <option value="opt2" >Dropdown option 2</option>
+          
+        </select>
+      <div id="btns">
+        <button id="resetBtn" class="btn" onclick="window.location.reload()">Reset</button>
+        <button id="createBtn" class="btn">Create</button>
+      </div>
+      </form>
+    </div>
+    <table >
+      <tr>
+        <th>  Username  </th>
+        <th>  Password  </th>
+        <th>  Label Text</th>
+      </tr>
+
+      <tbody id="tableBody">
+
+      </tbody>
+    </table>
+
+
+   <script src="main.js"></script>
+</body>
+</html>
