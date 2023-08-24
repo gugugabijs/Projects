@@ -1,0 +1,17 @@
+.modal{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(104, 112, 110);
+    border-radius: 24px;
+    padding: 20px;
+    position: relative;
+
+&_close{
+    position: absolute;
+    top: 12px;
+    right: 17px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+}
